@@ -1,0 +1,33 @@
+:root {
+    --primary-color: hsl(227, 71%, 11%);
+    --secondary-color: hsl(230, 38%, 20%);
+
+    --accent-color: hsl(227, 63%, 74%);
+    --accent-color-darker: hsl(227, 43%, 64%);
+
+    --border-color-lighter: hsl(226, 23%, 30%);
+    --border-color-light: hsl(226, 23%, 16%);
+    --border-color: hsla(227, 43%, 64%, 0.16);
+    --border-color-darker: hsla(227, 43%, 64%, 0.12);
+
+    --blue-color: hsl(227, 64%, 54%);
+    --red-color: hsl(0, 70%, 48%);
+    --green-color: hsl(144, 56%, 53%);
+
+    --text-default-color: hsla(0, 0%, 82%, 88%);
+
+    --default-box-shadow: 0px 6px 18px 2px hsl(230, 85%, 5%);
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: var(--text-default-color);
+    background-color: var(--primary-color);
+    font-family: Inter;
+    font-size: 16px;
+    overflow-x: hidden;
+}
